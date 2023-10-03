@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int answer = 4;
+            string response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} greater than";
+
+     
+            Console.WriteLine(response);
+
         }
     }
 }
